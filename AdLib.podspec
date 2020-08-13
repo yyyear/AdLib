@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.authors = {"aeagle"=>"aeagle@qq.com"}
   s.homepage = "https://github.com/aeagle/AdLib"
   s.description = "TODO: Add long description of the pod here."
-  s.source = { :path => '.' }
+  s.source = { :path => 'https://github.com/yyyear/AdLib.git' }
 
   s.ios.deployment_target    = '10.0'
   s.ios.vendored_framework   = 'ios/AdLib.framework'
