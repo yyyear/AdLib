@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'AdLib'
-  s.version          = '0.1.5'
+  s.name             = 'AdLibTest'
+  s.version          = '0.1.6'
   s.summary          = '测试一下依赖关系'
 
 # This description is used to generate tags and improve search results.
