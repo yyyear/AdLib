@@ -1,13 +1,42 @@
-Pod::Spec.new do |s|
-  s.name = "AdLib"
-  s.version = "0.1.3"
-  s.summary = "\u6D4B\u8BD5\u4E00\u4E0B\u4F9D\u8D56\u5173\u7CFB"
-  s.license = {"type"=>"MIT", "file"=>"LICENSE"}
-  s.authors = {"aeagle"=>"aeagle@qq.com"}
-  s.homepage = "https://github.com/aeagle/AdLib"
-  s.description = "TODO: Add long description of the pod here."
-  s.source = { :git => 'https://github.com/yyyear/AdLib.git' }
+#
+# Be sure to run `pod lib lint AdLib.podspec' to ensure this is a
+# valid spec before submitting.
+#
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+#
 
-  s.ios.deployment_target    = '10.0'
-  s.ios.vendored_framework   = 'ios/AdLib.framework'
+Pod::Spec.new do |s|
+  s.name             = 'AdLib'
+  s.version          = '0.1.4'
+  s.summary          = '测试一下依赖关系'
+
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
+
+  s.description      = <<-DESC
+TODO: Add long description of the pod here.
+                       DESC
+
+  s.homepage         = 'https://github.com/aeagle/AdLib'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'aeagle' => 'aeagle@qq.com' }
+  s.source           = { :git => 'git@github.com:yyyear/AdLib.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+  s.ios.deployment_target = '10.0'
+
+  s.source_files = 'AdLib/Classes/**/*'
+  
+  # s.resource_bundles = {
+  #   'AdLib' => ['AdLib/Assets/*.png']
+  # }
+  s.ios.vendored_frameworks = 'AdLib/Classes/*.framework'
+   s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  
 end
