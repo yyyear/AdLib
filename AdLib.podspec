@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AdLib'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = '测试一下依赖关系'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/aeagle/AdLib'
+  s.homepage         = 'https://github.com/yyyear/AdLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aeagle' => 'aeagle@qq.com' }
-  s.source           = { :git => 'git@github.com:yyyear/AdLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yyyear/AdLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
